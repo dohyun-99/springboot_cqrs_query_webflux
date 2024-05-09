@@ -1,4 +1,5 @@
 package com.kt.edu.thirdproject.common;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

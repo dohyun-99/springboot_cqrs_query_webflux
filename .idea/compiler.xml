@@ -12,11 +12,13 @@
         <module name="springboot_crud_security_query_webflux" />
         <module name="thirdproject" />
         <module name="springboot_crud_security" />
+        <module name="springboot_cqrs_query_webflux" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_cqrs_query_webflux" options="-parameters" />
       <module name="springboot_crud_security" options="-parameters" />
       <module name="springboot_crud_security_aop" options="-parameters" />
       <module name="springboot_crud_security_query" options="-parameters" />

@@ -33,11 +33,11 @@ public class R2DBConfig {
 
         return (args) -> {
             // save a few employees
-            repository.saveAll(Arrays.asList(new EmployeeEntity("1","1","1","1"),
-                            new EmployeeEntity("2","2","1","1"),
-                            new EmployeeEntity("3","3","1","1"),
-                            new EmployeeEntity("4","4","1","1"),
-                            new EmployeeEntity("5","5","1","1")))
+            repository.saveAll(Arrays.asList(new EmployeeEntity("1", "1", "1", "1"),
+                            new EmployeeEntity("2", "2", "1", "1"),
+                            new EmployeeEntity("3", "3", "1", "1"),
+                            new EmployeeEntity("4", "4", "1", "1"),
+                            new EmployeeEntity("5", "5", "1", "1")))
                     .blockLast(Duration.ofSeconds(10));
 
             // fetch all employees
@@ -56,7 +56,6 @@ public class R2DBConfig {
                 log.info(employee.toString());
                 log.info("");
             }).block(Duration.ofSeconds(10));
-
-        };
+        }
     }
 }

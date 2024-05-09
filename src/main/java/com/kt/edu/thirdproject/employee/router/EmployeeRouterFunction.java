@@ -17,7 +17,7 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 
 @Configuration
 public class EmployeeRouterFunction {
-
+/*
     @RouterOperations({
             @RouterOperation(path = "/api/v1/employees", method = RequestMethod.GET,
                     beanClass = EmployeeHandler.class, beanMethod = "getEmployees"),
@@ -39,5 +39,5 @@ public class EmployeeRouterFunction {
                 //.andRoute(PUT("/api/v1/employe/{id}"), employeeHandler::updateEmployee)
                 //.andRoute(DELETE("/api/v1/employee/{id}"), employeeHandler::deleteEmployee);
 
-    }
+    }*/
 }
